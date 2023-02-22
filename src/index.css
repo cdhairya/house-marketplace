@@ -1,22 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
-html::-webkit-scrollbar {
-    display: none;
-}
 
 body {
+    /* Height value to be checked */
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
     background-color: #f2f4f8;
-    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    display: block;
-    color: #000;
+.navActiveItem {
+    fill: #2c2c2c;
+}
+
+.navInactiveItem {
+    fill: #8f8f8f;
 }
