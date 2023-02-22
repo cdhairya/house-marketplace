@@ -19,3 +19,7 @@ body {
 .navInactiveItem {
     fill: #8f8f8f;
 }
+
+.cursorPointer {
+    cursor: pointer;
+}
